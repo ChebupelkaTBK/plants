@@ -2,7 +2,18 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getPlants() {
+    return [
+      {
+        id: 1,
+        name: 'Монстера',
+        wateringIntervalDays: 7,
+      },
+      {
+        id: 2,
+        name: 'Кактус',
+        wateringIntervalDays: 14,
+      },
+    ];
   }
 }
