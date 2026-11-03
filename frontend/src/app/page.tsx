@@ -1,9 +1,11 @@
+import PlantCard from "./components/catalog/plant-card/PlantCard";
 import PlantFilter from "./components/catalog/plant-filters/PlantFilter";
 
 export default async function Home() {
   return (
-    <main>
+    <main className="">
       <PlantFilter />
+      <PlantCard />
     </main>
   );
 }
