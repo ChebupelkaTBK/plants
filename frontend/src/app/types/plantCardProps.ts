@@ -3,5 +3,5 @@ export default interface PlantCardProps {
   name: string;
   image: string;
   description: string;
-  category: string;
+  category?: string;
 }

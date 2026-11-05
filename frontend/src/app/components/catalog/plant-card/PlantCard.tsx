@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { PlantCardProps } from "@/app/types/plantCardProps";
+import type PlantCardProps from "@/app/types/plantCardProps";
 
 export default function PlantCard({ name, image, description }: PlantCardProps) {
   return (
