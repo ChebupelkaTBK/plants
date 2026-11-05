@@ -1,7 +1,15 @@
+"use client";
 import Image from "next/image";
 import CategoryFilter from "./CategoryFilter";
+import { usePlantFilter } from "@/app/store/usePlantFilterStore";
 
-export default function PlantFilter() {
+interface PlantFilterProps {
+  count: number;
+}
+
+export default function PlantFilter({ count }: PlantFilterProps) {
+  const searchQuery = usePlantFilter((state) => state.searchQuery);
+  const setSearchQuery = usePlantFilter((state) => state.setSearchQuery);
   return (
     <div className="mx-auto w-full max-w-7xl flex flex-col gap-7 py-6 px-4 md:px-10 xl:px-0">
       <div className="flex flex-wrap gap-4 max-w-2xl">
@@ -17,6 +25,8 @@ export default function PlantFilter() {
         <input
           type="text"
           placeholder="Найти своё растение..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
           className="w-full h-12 text-black placeholder:text-[#303630]/50 focus:placeholder-transparent focus:outline-none"
         />
       </div>
@@ -24,7 +34,7 @@ export default function PlantFilter() {
       <CategoryFilter />
 
       <span className="text-[#727A70]">
-        Найдено растений: <span className="text-[#244D3A]">7</span>
+        Найдено растений: <span className="text-[#244D3A]">{count}</span>
       </span>
     </div>
   );

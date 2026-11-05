@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "name": "Замиокулькас",
-    "latinName": "Zamioculcas zamiifolia",
+    "name": "Монстера",
+    "latinName": "Monstera deliciosa",
     "family": "Ароидные",
-    "category": "Декоративно-лиственные",
-    "description": "Выносливое растение с тёмными блестящими листьями. Подойдёт даже для офиса.",
+    "category": "Тропические",
+    "description": "Тропическая классика с выразительными резными листьями. Добавит немного джунглей в ваш дом.",
     "difficulty": "Лёгкий",
-    "light": "Полутень",
-    "temperature": { "min": 18, "max": 26 },
+    "light": "Рассеянный свет",
+    "temperature": { "min": 18, "max": 27 },
     "humidity": { "min": 40, "max": 60 },
-    "wateringIntervalDays": 14,
+    "wateringIntervalDays": 7,
     "feedingIntervalDays": 30,
-    "repotting": "Раз в 2–3 года, не заглубляя клубни.",
+    "repotting": "Раз в 2 года весной, в горшок на 3–5 см больше.",
     "image": "/plants/Монстера.png"
   },
   {
     "id": 2,
-    "name": "Сансевиерия",
-    "latinName": "Sansevieria trifasciata",
-    "family": "Спаржевые",
+    "name": "Фикус эластика",
+    "latinName": "Ficus elastica",
+    "family": "Тутовые",
     "category": "Декоративно-лиственные",
     "description": "Неприхотливое растение с жёсткими вертикальными листьями. Переносит нехватку света и редкий полив.",
     "difficulty": "Лёгкий",
@@ -29,12 +29,12 @@
     "wateringIntervalDays": 14,
     "feedingIntervalDays": 45,
     "repotting": "Раз в 3–4 года, когда корни заполнят горшок.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Фикус-эластика.png"
   },
   {
     "id": 3,
-    "name": "Хлорофитум",
-    "latinName": "Chlorophytum comosum",
+    "name": "Сансевиерия",
+    "latinName": "Sansevieria trifasciata",
     "family": "Спаржевые",
     "category": "Декоративно-лиственные",
     "description": "Быстрорастущее растение с полосатыми листьями и «детками» на длинных побегах.",
@@ -45,12 +45,12 @@
     "wateringIntervalDays": 7,
     "feedingIntervalDays": 30,
     "repotting": "Раз в год весной, растение быстро растёт.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Сансавиерия.png"
   },
   {
     "id": 4,
     "name": "Спатифиллум",
-    "latinName": "Spathiphyllum wallisii",
+    "latinName": "Spathiphyllum",
     "family": "Ароидные",
     "category": "Цветущие",
     "description": "Растение с глянцевыми листьями и белыми соцветиями. Сигнализирует о жажде поникшими листьями.",
@@ -61,14 +61,14 @@
     "wateringIntervalDays": 5,
     "feedingIntervalDays": 14,
     "repotting": "Раз в год весной, в слегка больший горшок.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Спатифиллум.png"
   },
   {
     "id": 5,
-    "name": "Монстера",
-    "latinName": "Monstera deliciosa",
-    "family": "Ароидные",
-    "category": "Декоративно-лиственные",
+    "name": "Калатея",
+    "latinName": "Calathea orbifolia",
+    "family": "Марантовые",
+    "category": "Тропические",
     "description": "Крупное растение с резными листьями. Нуждается в опоре и достаточном пространстве.",
     "difficulty": "Средний",
     "light": "Яркий рассеянный",
@@ -77,14 +77,14 @@
     "wateringIntervalDays": 7,
     "feedingIntervalDays": 14,
     "repotting": "Раз в 1–2 года, лучше вместе с опорой.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Калатея.png"
   },
   {
     "id": 6,
-    "name": "Фикус Бенджамина",
-    "latinName": "Ficus benjamina",
-    "family": "Тутовые",
-    "category": "Тропические",
+    "name": "Кактус",
+    "latinName": "Echinocactus grusonii",
+    "family": "Кактусовые",
+    "category": "Кактусы и суккуленты",
     "description": "Компактное деревце с мелкими глянцевыми листьями. Не любит перестановок и сквозняков.",
     "difficulty": "Средний",
     "light": "Яркий рассеянный",
@@ -93,14 +93,14 @@
     "wateringIntervalDays": 7,
     "feedingIntervalDays": 14,
     "repotting": "Раз в 2 года весной, аккуратно сохраняя земляной ком.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Кактус.png"
   },
   {
     "id": 7,
-    "name": "Алоэ вера",
-    "latinName": "Aloe vera",
-    "family": "Асфоделовые",
-    "category": "Кактусы и суккуленты",
+    "name": "Замиокулькас",
+    "latinName": "Zamioculcas zamiifolia",
+    "family": "Ароидные",
+    "category": "Декоративно-лиственные",
     "description": "Суккулент с мясистыми листьями. Любит свет и боится переувлажнения.",
     "difficulty": "Лёгкий",
     "light": "Яркий",
@@ -109,6 +109,6 @@
     "wateringIntervalDays": 14,
     "feedingIntervalDays": 60,
     "repotting": "Раз в 2–3 года в неглубокий горшок с дренажем.",
-    "image": "/plants/Монстера.png"
+    "image": "/plants/Замиокулькас.png"
   }
 ]

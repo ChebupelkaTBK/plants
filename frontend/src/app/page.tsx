@@ -1,11 +1,10 @@
-import PlantCard from "./components/catalog/plant-card/PlantCard";
-import PlantFilter from "./components/catalog/plant-filters/PlantFilter";
+import PlantCatalog from "./components/catalog/PlantCatalog";
+import plants from "@/app/plants.json";
 
 export default async function Home() {
   return (
-    <main className="">
-      <PlantFilter />
-      <PlantCard />
+    <main className="flex flex-col">
+      <PlantCatalog plants={plants} />
     </main>
   );
 }
