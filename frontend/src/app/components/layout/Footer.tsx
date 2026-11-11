@@ -8,7 +8,13 @@ export default function Footer() {
         {/* Footer logo */}
 
         <Link href="/" className="flex gap-2 items-center">
-          <Image src="/logo/logo.svg" alt="logo" width={50} height={50} className="size-6" />
+          <Image
+            src="/logo/logo.svg"
+            alt="logo"
+            width={50}
+            height={50}
+            className="size-6"
+          />
           <div>
             <span className="font-bold text-2xl md:text-[30px]">Green</span>
             <span className="text-2xl md:text-[30px]">Home</span>

@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
 interface PlantFilterStore {
   selectedCategory: string;
@@ -7,15 +8,20 @@ interface PlantFilterStore {
   setSearchQuery: (query: string) => void;
 }
 
-export const usePlantFilter = create<PlantFilterStore>((set) => ({
-  selectedCategory: "Все растения",
-  searchQuery: "",
+export const usePlantFilter = create<PlantFilterStore>()(
+  persist(
+    (set) => ({
+      selectedCategory: "Все растения",
+      searchQuery: "",
 
-  setCategory: (category) => {
-    set({ selectedCategory: category });
-  },
+      setCategory: (category) => {
+        set({ selectedCategory: category });
+      },
 
-  setSearchQuery: (query) => {
-    set({ searchQuery: query });
-  },
-}));
+      setSearchQuery: (query) => {
+        set({ searchQuery: query });
+      },
+    }),
+    { name: "plant-filter-storage" },
+  ),
+);

@@ -25,6 +25,7 @@ export default function PlantCatalog({ plants }: PlantCatalogProps) {
         {filteredPlants.map((plant) => (
           <PlantCard
             key={plant.id}
+            id={plant.id}
             image={plant.image}
             name={plant.name}
             description={plant.description}

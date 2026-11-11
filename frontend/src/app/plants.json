@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Монстера",
     "latinName": "Monstera deliciosa",
     "family": "Ароидные",
@@ -16,7 +16,7 @@
     "image": "/plants/Монстера.png"
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Фикус эластика",
     "latinName": "Ficus elastica",
     "family": "Тутовые",
@@ -29,10 +29,10 @@
     "wateringIntervalDays": 14,
     "feedingIntervalDays": 45,
     "repotting": "Раз в 3–4 года, когда корни заполнят горшок.",
-    "image": "/plants/Фикус-эластика.png"
+    "image": "/plants/Монстера.png"
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Сансевиерия",
     "latinName": "Sansevieria trifasciata",
     "family": "Спаржевые",
@@ -48,7 +48,7 @@
     "image": "/plants/Сансавиерия.png"
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Спатифиллум",
     "latinName": "Spathiphyllum",
     "family": "Ароидные",
@@ -64,7 +64,7 @@
     "image": "/plants/Спатифиллум.png"
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Калатея",
     "latinName": "Calathea orbifolia",
     "family": "Марантовые",
@@ -80,7 +80,7 @@
     "image": "/plants/Калатея.png"
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "Кактус",
     "latinName": "Echinocactus grusonii",
     "family": "Кактусовые",
@@ -96,7 +96,7 @@
     "image": "/plants/Кактус.png"
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "Замиокулькас",
     "latinName": "Zamioculcas zamiifolia",
     "family": "Ароидные",
