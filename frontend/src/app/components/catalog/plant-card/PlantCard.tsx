@@ -4,13 +4,14 @@ import Link from "next/link";
 
 import FavoriteButton from "./FavoriteButton";
 
+
 export default function PlantCard({ id, name, image, description }: PlantCardProps) {
   return (
     <div className="flex flex-col w-full mx-auto max-w-[600px] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
       <div className="relative w-full">
         <Link href={`/plant/${id}`}>
           <Image
-            src={image}
+            src={image} 
             alt={name}
             width={350}
             height={250}
@@ -18,7 +19,7 @@ export default function PlantCard({ id, name, image, description }: PlantCardPro
           />
         </Link>
         <div className="absolute top-3 right-3 z-10">
-          <FavoriteButton />
+          <FavoriteButton plantId={id} plantName={name} />
         </div>
       </div>
 
@@ -26,7 +27,7 @@ export default function PlantCard({ id, name, image, description }: PlantCardPro
         <Link
           href={`/plant/${id}`}
           className="text-[20px] text-[#244D3A] wrap-break-word line-clamp-2"
-        >
+        >     
           {name}
         </Link>
         <span className="text-[#727A70] text-[13px] line-clamp-2">{description}</span>

@@ -46,7 +46,7 @@ export default async function Plant({ params }: { params: Promise<{ id: string }
       </div>
       <div className="flex flex-col">
         <div className="flex flex-col gap-2  py-3 border-b border-gray-300 self-start">
-          <span className="text-[#727A70] text-[13px]">Тропические</span>
+          <span className="text-[#727A70] text-[13px]">{plant.category}</span>
           <h1 className="text-[35px] text-[#244D3A] font-bold">{plant.name}</h1>
           <span className="text-[#727A70] text-[13px]">
             {plant.latinName} · {plant.family}
